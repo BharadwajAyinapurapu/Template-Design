@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web page 2</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			font-family:verdana;
+		}
+		a{
+			font-size:13px;
+		}
+		
+
+		img{
+			margin:1px 0 0 100px;
+			
+		}
+		.q1{	/*for image*/
+			margin:15px 0 0 0;
+		}
+		.q2 {
+			list-style-type:none;
+			font-family:verdana;
+			list-style-position: outside;
+			margin:25px 0 0 25px;
+			position:absolute ;
+			top:3px;
+			left:420px;
+
+
+
+		}
+		.q2 li{
+			display:inline;
+			background-color:white;
+			border-width: 5px ;
+			border-style:solid;
+			border-color:white;
+			padding:7px;
+
+		}
+		li a{
+			text-decoration: none;
+			color: black;
+
+		}
+		
+		#w1{
+			border:3px solid orange;
+			background-color:orange;
+			
+			border-radius:3px;
+			padding:10px 24px 10px 24px;
+			margin:15px 5px;
+			
+			
+		}
+		.yo{
+			color:white;
+		
+		}
+		#s1{
+			background-color:white;
+			border-width: 5px ;
+			border-style:solid;
+			border-color:white;
+			padding:70px;
+		}
+		#hi{
+			color:orange;
+		}
+		#f1{
+			position:absolute;
+			top:210px;
+			left:590px;
+			font-size:27px;
+		}
+		#f2{
+			font-size:15px;
+			position:absolute;
+			top:330px;
+			left:590px;
+		}
+		#f3{
+			
+			position:absolute;
+			top:440px;
+			left:590px;
+			
+		}
+		.f4{
+			text-decoration:none;
+			font-size:17px;
+			color:black;
+		}
+		a:hover{
+			color:blue;
+			background-color:#dddddd;
+			border:5px solid #dddddd;
+			
+			/*padding:10px 24px 10px 24px;*/
+		}
+		.hey{
+			border:1px solid orange;
+			background-color: orange;
+			width:890px;
+			height:85px;
+			position:relative;
+			top:-40px;
+			left:140px;
+		}
+		
+		.amma{
+			width:200px;
+			height:40px;
+			border-radius: 4px;
+			border:1px solid white;
+			margin-left:20px;
+			margin-right: 5px;
+		}
+		/*.ayya{
+			margin-left: 35px
+		}*/
+		.nanna{
+			background-color: black;
+			color:white;
+			width:100px;
+			height:40px;	
+			border-radius: 4px;	
+			border:1px solid black;
+			margin-left: 20px;
+			margin-right: 5px;
+		}
+		.bavforall{
+			padding:20px 25px 20px 25px;
+			box-sizing: border-box;
+		}
+
+	</style>
+</head>
+<body>
+	<img src="comportlogo.jpg" alt="comport logo" width="220" height="70">	<br/>
+	<img class="q1" src="comport_ppl.jpg" alt="comport people">	
+
+	<ul class="q2" >
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">ABOUT US</a></li>
+		<li><a href="#">CATEGORY</a></li>
+		<li><a href="#">BLOG</a></li>
+		<li><a href="#">CONTACT</a></li>
+		<li><a href="#">PAGES</a></li>
+		<span id="s1">
+			<li><a href="#">LOG IN</a></li>
+			<li id="w1"><a href="#" class="yo">SIGN UP</a></li>
+		</span>
+	</ul>
+	<p id="f1"><strong>FIND YOUR DREAM<br/><span id="hi">JOB</span> WITH <br/>COMPORT</strong></p>
+	<p id="f2">Wherein herb beginning. Moved after<br/> gathering. Sea hi crate fowl man replenish<br/> place divided likeness herb one two lnetn<br/>winged moving saw,may over.</p>
+	<p id="f3"><a href="#" class="f4"><strong>EXPLORE NOW →</strong></a></p>
+
+	<div class="hey">
+		<form class="bavforall">
+			<input list="categories" name="category" placeholder="All Category" class="amma">
+				<datalist id="categories">
+					<option value="Software engineer">
+					<option value="Manager" >
+					<option value="Technician">
+					<option value="System analyst">
+					<option value="operator">
+				</datalist>		
+			<!--<select name="categories">
+				<option  placeholder="Software engg.">Software engineer</option>
+				<option value="Manager">Manager</option>
+				<option value="Tech.">Technician</option>
+				<option value="Syst analyst">System analyst</option>
+				<option value="Operator">Operator</option>
+			</select>-->
+			<input list="location" name="Location" placeholder="Select Location" class="amma ayya">
+				<datalist id="location">
+					<option value="Hyderabad">
+					<option value="Bangalore">
+					<option value="Pune">
+					<option value="Chennai">
+				</datalist>
+			<input type="text" name="keyword" placeholder="Search Keyword" class="amma ayya">
+			<button value="Find Job" class="nanna ayya">Find Job</button>
+		</form>
+	</div>
+
+
+
+
+</body>
+</html>
